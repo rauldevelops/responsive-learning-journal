@@ -1,9 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>My Learning Journal</title>
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
         <!-- Meta Tags -->
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +29,7 @@
         <main>
             <section class="featured-article">
                 <div class="container flex">
-                        <h2>My new journey as a bootcamp student.</h2>
+                        <h2><a href="article.html">My new journey as a bootcamp student.</a></h2>
                         <time datetime="2022-07-23">July 23, 2022</time>
                         <p class="article-blurb">
                             After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.
@@ -35,8 +37,8 @@
                 </div>
             </section>
             <section class="articles-list">
-                <div class="container">
-                    <article class="article-item flex">
+                <div class="container grid">
+                    <article class="article-item flex blog-one">
                         <img src="images/blog-one-hero.png" class="article-image" alt="a laptop on a desk next to a succulent plant">
                         <h3><a href="#">Blog One</a></h3>
                         <time datetime="2022-07-23">July 23, 2022</time>
@@ -44,7 +46,7 @@
                             Flexbox is a powerful layout module that makes it easier to design flexible responsive layout structures without using float or positioning.
                         </p>
                     </article>
-                    <article class="article-item flex">
+                    <article class="article-item flex blog-two">
                         <img src="images/blog-two-hero.png" class="article-image" alt="a hand holding a lightbulb outside in the twilight">
                         <h3><a href="#">Blog Two</a></h3>
                        <time datetime="2022-07-23">July 23, 2022</time>
@@ -52,7 +54,7 @@
                             ES6 introduced several new features that make JavaScript more powerful and easier to work with. In this article, we explore some of the most important ones.
                         </p>
                     </article>
-                    <article class="article-item flex">
+                    <article class="article-item flex blog-three">
                         <img src="images/blog-three-hero.png" class="article-image" alt=" abstract neon futuristic shapes on a dark background">
                         <h3><a href="#">Blog Three</a></h3>
                         <time datetime="2022-07-23">July 23, 2022</time>
@@ -60,7 +62,7 @@
                             Version control is essential for any developer. This article covers the basics of Git and how to use GitHub for your projects.
                         </p>
                     </article>
-                    <article class="article-item flex">
+                    <article class="article-item flex blog-four">
                         <img src="images/blog-four-hero.png" class="article-image" alt="a person in a sweater and jeans walking along a beach">
                         <h3><a href="#">Blog Four</a></h3>
                         <time datetime="2022-07-23">July 23, 2022</time>
@@ -68,7 +70,7 @@
                             Flexbox is a powerful layout module that makes it easier to design flexible responsive layout structures without using float or positioning.
                         </p>
                     </article>
-                    <article class="article-item flex">
+                    <article class="article-item flex blog-five">
                         <img src="images/blog-five-hero.png" class="article-image" alt="a code editor running React on a laptop screen">
                         <h3><a href="#">Blog Five</a></h3>
                        <time datetime="2022-07-23">July 23, 2022</time>
@@ -76,7 +78,7 @@
                             ES6 introduced several new features that make JavaScript more powerful and easier to work with. In this article, we explore some of the most important ones.
                         </p>
                     </article>
-                    <article class="article-item flex">
+                    <article class="article-item flex blog-six">
                         <img src="images/blog-six-hero.png" class="article-image" alt="a laptop open to a business home page on a picnic table at a work site">
                         <h3><a href="#">Blog Six</a></h3>
                         <time datetime="2022-07-23">July 23, 2022</time>
@@ -85,6 +87,15 @@
                         </p>
                     </article>
                 </div>
+                <div class="view-more-btn-container container flex">
+                    <a href="#" class="view-more-btn">View More</a>
+                </div>
         </main>
+        <footer>
+            <div class="container flex">
+                <p>My Learning Journal</p>
+                <p>Copyright 2025</p> 
+            </div>
+        </footer>
     </body>
 </html>
